@@ -28,7 +28,11 @@
                         </li>
                         <li>
                             <i class='bx bx-envelope'></i>
-                            <a href="mailto:hello@atoli.com">hello@atoli.com</a>
+                            <a href="{{ route('login') }}">Login</a>
+                        </li>
+                        <li>
+                            <i class='bx bx-envelope'></i>
+                            <a href="{{ route('register') }}">Register</a>
                         </li>
                     </ul>
                 </div>
